@@ -3,14 +3,11 @@
 // Внутри класса Answer напишите метод CreateRandomMatrix, который принимал бы числа m и n (размеренность массива),
 // а также minLimitRandom и maxLimitRandom, которые указывают на минимальную и максимальную границы случайных чисел.
 // Также, задайте метод PrintArray, который выводил бы массив на экран.
-
 // m = 3, n = 4, minLimitRandom = -10, maxLimitRandom = 10
-
 // 0,5 7 -2 -0,2
 // 1 -3,3 8 -9,9
 // 8 7,8 -7,1 9
 using System;
-
 public class Answer
 {
     public static double[,] CreateRandomMatrix(int m, int n, int minLimitRandom, int maxLimitRandom)
